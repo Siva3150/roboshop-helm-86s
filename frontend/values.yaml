@@ -1,5 +1,5 @@
 deployment: 
- imageRepo: siva3150/frontend 
+ imageRepo: siva3150/frontend  
  imageVersion: v1 
 service: 
  servicePort: 80 # default value
