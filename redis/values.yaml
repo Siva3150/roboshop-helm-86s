@@ -1,0 +1,6 @@
+deployment: 
+ imageRepo: siva3150/redis 
+ imageVersion: v1 
+service: 
+ type: ClusterIP 
+ 
