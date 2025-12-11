@@ -6,9 +6,9 @@ metadata:
 spec:
   selector:
     project: roboshop
-    component: shipping
+    component: shipping 
     tier: backend
   ports:
     - protocol: TCP
-      port: "{{ .Values.service.servicePort }}"
+      port: {{ .Values.service.servicePort }}
       targetPort: 8080
