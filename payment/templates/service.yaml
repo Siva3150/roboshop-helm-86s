@@ -1,14 +1,14 @@
- apiVersion: v1 
- kind: Service 
- metadata: 
-  name: payment 
-  namespace: roboshop 
- spec: 
-  selector: 
-   project: roboshop
-   component: payment 
-   tier: backend  
+apiVersion: v1
+kind: Service
+metadata:
+  name: payment
+  namespace: roboshop
+spec:
+  selector:
+    project: roboshop
+    component: payment
+    tier: backend
   ports:
-   - protocol: TCP 
-     port: {{ .Values.service.servicePort }} # service port 
-     targetPort: 8080 # container port 
+    - protocol: TCP
+      port: {{ .Values.service.servicePort }}
+      targetPort: 8080
