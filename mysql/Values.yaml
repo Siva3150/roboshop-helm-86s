@@ -2,4 +2,4 @@ deployment:
  imageRepo: siva3150/mysql 
  imageVersion: v1 
 service: 
- type: ClusterIP .
+ type: ClusterIP 
